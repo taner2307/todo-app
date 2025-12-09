@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: todo-config
+data:
+  SPRING_DATASOURCE_URL: "jdbc:mysql://mysql:3306/testdb"
+  SPRING_JPA_HIBERNATE_DDL_AUTO: "update"
